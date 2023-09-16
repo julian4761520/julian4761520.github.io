@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #acaeb3;
+    color: #333;
+}
+
+header {
+    background-color: #101416;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+p, ul{
+    font-size:20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#111313; 
+    text-align: justify;
+    }
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 100px;
+    
+}
+
+nav ul li a{
+    color: #0e0d0d;
+}
+
+main {
+    padding: 20px;
+}
+
+
+
+section {
+    
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px soli+d #ccc;
+
+
+}
+
+#quienes-somos{
+    background-color: rgb(114, 204, 144);
+}
+#productos-servicios{
+    background-color: fuchsia;
+}
+#inicio{
+    background-color: #a8a2a2;
+}
+#contacto{
+    background-color: orange;
+}
+
+footer {
+    background-color: #e9dfdf;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.contenedor{
+    display: flex;
+    padding: 50px;
+    background-color: #20c4da;
+    text-align: justify;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    gap: 50px;
+    border-radius: 50px 0px;
+    margin-top: 50px;
+}
